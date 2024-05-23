@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin: 10px;
+    }
+    .menu {
+      list-style-type: none;
+      padding: 0;
+    }
+    .menu a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: hsl(0, 91%, 48%);
+    }
+    .menu a:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Image Links</h1>
+  <section>
+    <h2>Home</h2>
+    <p>Welcome to our website! Here is a linked image related to technology:</p>
+    <a href="https://www.technologywebsite.com">
+      <img src="technology.jpg" alt="Technology image">
+    </a>
+  </section>
+  <section>
+    <h2>Gallery</h2>
+    <p>Here is a grid of linked images related to nature:</p>
+    <div class="gallery">
+      <a href="https://www.naturewebsite1.com">
+        <img src="nature1.jpg" alt="Nature image 1">
+      </a>
+      <a href="https://www.naturewebsite2.com">
+        <img src="nature2.jpg" alt="Nature image 2">
+      </a>
+      <a href="https://www.naturewebsite3.com">
+        <img src="nature3.jpg" alt="Nature image 3">
+      </a>
+      <a href="https://www.naturewebsite4.com">
+        <img src="nature4.jpg" alt="Nature image 4">
+      </a>
+      <a href="https://www.naturewebsite5.com">
+        <img src="nature5.jpg" alt="Nature image 5">
+      </a>
+      <a href="https://www.naturewebsite6.com">
+        <img src="nature6.jpg" alt="Nature image 6">
+      </a>
+    </div>
+  </section>
+  <section>
+    <h2>Menu</h2>
+    <p>Here is a list of food items, each linked to an image related to that food:</p>
+    <ul class="menu">
+      <li><a href="https://imgs.search.brave.com/PgIgGhAgylj_Kc55Hex2oHi6CrzblthThMagOdhQc7k/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/c2hlbGxmaXNoLXBh/c3RhLXBpenphLWFu/ZC1pdGFsaWFuLWZv/b2QuanBnP3dpZHRo/PTEwMDAmZm9ybWF0/PXBqcGcmZXhpZj0w/JmlwdGM9MA">Pizza</a></li>
+      <li><a href="https://imgs.search.brave.com/coh8tFIs5FLiPvzW80DfUT7QLNVmy_v_lUcyb6QGElU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDk5/Mzc2OTcxL3Bob3Rv/L2RlbGljaW91cy1w/b3J0aW9uLW9mLWZy/ZXNoLXNhbG1vbi1m/aWxsZXQtd2l0aC1h/cm9tYXRpYy1oZXJi/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9cTM5LUNiVko0/SkdxUXM0aGpxa2h6/U055dnk3dGx4anZu/NU5xVkZheVcwUT0">Sushi</a></li>
+      <li><a href="https://imgs.search.brave.com/EwhT6yyM2tIXVfJeF3azOhrl3fqePPdt_2B4k6VIYXE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zc2wu/Yy5waG90b3NoZWx0/ZXIuY29tL2ltZy1n/ZXQvSTAwMDBkd29t/ZVJ1LlRMOC9zLzUw/MC9JMDAwMGR3b21l/UnUuVEw4LmpwZw">Burger</a></li>
+      <li><a href="https://imgs.search.brave.com/I9YlrZKtH4y2qr6sZ-cmaUk-LYmC3T0Kn9NPE-Jqt30/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIw/MzExMDgxOC9waG90/by9zcGFnaGV0dGkt/Ym9sb2duZXNlLXdp/dGgtbWluY2VkLWJl/ZWYtYW5kLXRvbWF0/by1zYXVjZS1nYXJu/aXNoZWQtd2l0aC1w/YXJtZXNhbi1jaGVl/c2UtYW5kLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1KTkJ1/azg1a0xxeEtDZGRj/QVp0bWtzY2VlZF9I/dnQ1cEw4R2NSenlM/UHI4PQ">Pasta</a></li>
+      <li><a href="https://imgs.search.brave.com/g4e3pGnk4XSMRoRuF4bW2fqy62XBr1MVkQvn6QT_yaA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM0/NTE5OTczNC9waG90/by9icmVha2Zhc3Qt/c2FsYWQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPURkN1o1/Zkk5Z0RjdVNGcklV/ODlKcUc1ZXVCZ1A0/ZUpCU0tobGF6em1u/dnc9">Salad</a></li>
+    </ul>
+  </section>
+</body>
+</html>
